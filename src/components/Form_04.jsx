@@ -12,10 +12,10 @@ export const Form_04 = () => {
       <Link to="/001/">
         <div className="Form_04-answers">
           <div className="Form_04-answers-item">
-            username
+            disaster_unemployed
           </div>
           <div className="Form_04-answers-item">
-            QkD4Yxv
+            zVCha~)g[7Ks)Y*p_XHfS=Y~.6*NTkQw
           </div>
         </div>
       </Link>

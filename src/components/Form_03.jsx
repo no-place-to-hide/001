@@ -12,16 +12,18 @@ export const Form_03 = () => {
           Ya imety v vidu, ch shgsiio, ьuu cu’sh’b?
         </div>
       </div>
-      <Link to="/001/form-4">
-        <div className="Form_03-answers">
+      <div className="Form_03-answers">
+        <Link to="/001/form-4">
           <div className="Form_03-answers-item">
             Da
           </div>
+        </Link>
+        <Link to="/001">
           <div className="Form_03-answers-item">
             Net
           </div>
-        </div>
-      </Link>
+        </Link>
+      </div>
     </div>
   );
 };
