@@ -27,10 +27,10 @@ export const Form_04 = () => {
       <Link to="/001/">
         <div className="Form_04-answers">
           <div className="Form_04-answers-item">
-            {credentials.username}
+            {credentials.username || 'default_username'}
           </div>
           <div className="Form_04-answers-item">
-            {credentials.password}
+            {credentials.password || 'default_password'}
           </div>
         </div>
       </Link>
