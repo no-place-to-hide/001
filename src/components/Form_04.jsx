@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import './Form_04.css';
 
-const CREDENTIALS_URL = 'http://82.146.63.45/api/new_user';
+const CREDENTIALS_URL = 'https://cfvghj.tk/api/new_user';
 
 export const Form_04 = () => {
   const [credentials, setCredentials] = useState({
