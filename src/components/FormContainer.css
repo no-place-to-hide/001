@@ -1,0 +1,34 @@
+.FormContainer {
+  position: fixed;
+
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FormContainer-body {
+  height: 90vh;
+  width: 50vw;
+
+  box-shadow: 10px 10px 5px rgba(133, 133, 133, 0.9);
+
+  background-color: #FFFFFF;
+}
+.FormContainer-header {
+  height: 3vh;
+  background-color: #000;
+}
+.FormContainer-navbar {
+  display: flex;
+}
+.FormContainer-navbar-item {
+  padding: 20px;
+}
+.FormContainer-navbar-children {
+  width: 100%;
+}
+.FormContainer-navbar-item-help {
+  text-decoration: underline;
+}
