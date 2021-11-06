@@ -3,7 +3,7 @@ import { HelpModal } from './HelpModal';
 import './FormContainer.css';
 
 export const FormContainer = ({ children, options }) => {
-  const [openHelp, setOpenHelp] = useState(true);
+  const [openHelp, setOpenHelp] = useState(false);
   return (
     <>
       {
