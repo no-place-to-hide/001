@@ -25,7 +25,7 @@ function App() {
             </Route>
             <Route path="/001/form-3">
               <Background />
-              <FormContainer>
+              <FormContainer options={{ black: true }}>
                   <Form_03 />
               </FormContainer>
             </Route>

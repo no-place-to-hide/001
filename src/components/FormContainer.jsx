@@ -1,9 +1,9 @@
 import './FormContainer.css';
 
-export const FormContainer = ({ children }) => {
+export const FormContainer = ({ children, options }) => {
   return (
     <div className="FormContainer">
-      <div className="FormContainer-body">
+      <div className={options?.black ? 'FormContainer-body-black' : 'FormContainer-body'}>
         <div className="FormContainer-header" />
         <div className="FormContainer-navbar">
           <div className="FormContainer-navbar-item">

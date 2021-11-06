@@ -16,6 +16,15 @@
 
   background-color: #FFFFFF;
 }
+.FormContainer-body-black {
+  height: 90vh;
+  width: 50vw;
+
+  box-shadow: 10px 10px 5px rgba(133, 133, 133, 0.9);
+
+  background-color: #000;
+  color: #FFFFFF;
+}
 .FormContainer-header {
   height: 3vh;
   background-color: #000;

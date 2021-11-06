@@ -12,7 +12,6 @@
 }
 .Form_03-center-text {
   display: flex;
-  /* justify-content: center; */
   margin: 0 3vh;
   align-items: center;
 }
@@ -32,6 +31,6 @@
 .Form_03-answers-item {
   padding: 6vh;
   text-decoration: underline;
-  color: #000;
+  color: #fff;
   font-size: 20px;
 }
