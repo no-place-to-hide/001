@@ -12,7 +12,7 @@ export const Form_01 = () => {
           Pogoda snaruzhi horoshaya.
         </div>
       </div>
-      <Link to="/form-2">
+      <Link to="/001/form-2">
         <div className="Form_01-answers">
           <div className="Form_01-answers-item">
             Da

@@ -12,7 +12,7 @@ export const Form_02 = () => {
           Yuchanbe shsh’chmchfpsie?
         </div>
       </div>
-      <Link to="/form-3">
+      <Link to="/001/form-3">
         <div className="Form_02-answers">
           <div className="Form_02-answers-item">
             Da

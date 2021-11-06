@@ -17,25 +17,25 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-            <Route path="/form-4">
+            <Route path="/001/form-4">
               <Background />
               <FormContainer>
                   <Form_04 />
               </FormContainer>
             </Route>
-            <Route path="/form-3">
+            <Route path="/001/form-3">
               <Background />
               <FormContainer>
                   <Form_03 />
               </FormContainer>
             </Route>
-            <Route path="/form-2">
+            <Route path="/001/form-2">
               <Background />
               <FormContainer>
                   <Form_02 />
               </FormContainer>
             </Route>
-            <Route path="/">
+            <Route path="/001">
               <Background />
               <FormContainer>
                   <Form_01 />

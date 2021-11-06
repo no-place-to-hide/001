@@ -9,7 +9,7 @@ export const Form_04 = () => {
           Otlichno. http://82.146.63.45/
         </div>
       </div>
-      <Link to="/">
+      <Link to="/001/">
         <div className="Form_04-answers">
           <div className="Form_04-answers-item">
             username
