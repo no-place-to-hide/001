@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import './Form_01.css';
 
 export const Form_01 = () => {
@@ -11,17 +12,19 @@ export const Form_01 = () => {
           Pogoda snaruzhi horoshaya.
         </div>
       </div>
-      <div className="Form_01-answers">
-        <div className="Form_01-answers-item">
-          Da
+      <Link to="/form-2">
+        <div className="Form_01-answers">
+          <div className="Form_01-answers-item">
+            Da
+          </div>
+          <div className="Form_01-answers-item">
+            Net
+          </div>
+          <div className="Form_01-answers-item">
+            Ne znayu
+          </div>
         </div>
-        <div className="Form_01-answers-item">
-          Net
-        </div>
-        <div className="Form_01-answers-item">
-          Ne znayu
-        </div>
-      </div>
+      </Link>
     </div>
   );
 };

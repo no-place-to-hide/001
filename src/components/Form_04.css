@@ -1,22 +1,22 @@
-.Form_02 {
+.Form_04 {
   width: 100%;
 }
-.Form_02-img-container {
+.Form_04-img-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.Form_02-img {
+.Form_04-img {
   width: 38vw;
   margin: 0vh 3vh 3vh 3vh;
 }
-.Form_02-center-text {
+.Form_04-center-text {
   display: flex;
   /* justify-content: center; */
   margin: 0 3vh;
   align-items: center;
 }
-.Form_02-center-text-item {
+.Form_04-center-text-item {
   width: 100%;
   font-size: 28px;
 
@@ -24,12 +24,12 @@
 
   border: 2px solid;
 }
-.Form_02-answers {
+.Form_04-answers {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.Form_02-answers-item {
+.Form_04-answers-item {
   padding: 6vh;
   text-decoration: underline;
   color: #000;
