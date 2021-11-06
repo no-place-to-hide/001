@@ -1,0 +1,19 @@
+.HelpModal {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  z-index: 9999;
+  width: 20vw;
+  background-color: #000;
+  color: #fff;
+  padding: 2vh;
+}
+.HelpModal-header {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+  font-size: 16px;
+}
+.HelpModal-body {
+  font-size: 24px;
+}
